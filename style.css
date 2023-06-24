@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: sans-serif
+}
+
+/* Header ---> Css */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    background: transparent;
+}
+
+nav div p {
+    margin: 10px;
+}
+
+nav .nav-item-right p a {
+    text-decoration: none;
+}
+
+/* Main-Form ---> Css */
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 50px;
+}
+
+main .title {
+    font-weight: 500;
+    margin-bottom: 10px ;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+}
+
+main input {
+    margin: 5px 0;
+    height: 15px;
+    border: none;
+    padding: 10px;
+    padding-left: 0;
+    border-bottom: 1px solid white;
+}
+
+input:focus{
+    outline: none;
+}
+
+main #message{
+    margin: 10px 0;
+}
+
+.error{
+    color: red;
+}
+
+.success{
+    color: green;
+}
+
+.btn{
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 100px;
+    border: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+
+/* Profile ---> Css */
+
+.container div{
+    margin: 15px 0;
+}
